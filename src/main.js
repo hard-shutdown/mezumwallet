@@ -1,11 +1,15 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
 
-import './assets/main.css'
+import VueSidebarMenu from "vue-sidebar-menu";
 
-const app = createApp(App)
+import "./assets/main.css";
+import "vue-sidebar-menu/dist/vue-sidebar-menu.css";
 
-app.use(router)
+const app = createApp(App);
 
-app.mount('#app')
+app.use(router);
+app.use(VueSidebarMenu);
+
+app.mount("#app");

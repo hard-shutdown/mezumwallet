@@ -33,3 +33,14 @@ a,
     padding: 0 2rem;
   }
 }
+
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  padding: 10px 0px;
+  font-size: 25px;
+  transform: translateX(-575%);
+}
