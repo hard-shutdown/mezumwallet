@@ -1,11 +1,7 @@
-<script setup>
-import Sidebar from "../components/Sidebar.vue";
-</script>
+<script setup></script>
 
 <template>
   <main>
-    <header>
-      <h1>Test</h1>
-    </header>
+    <h1>Home</h1>
   </main>
 </template>

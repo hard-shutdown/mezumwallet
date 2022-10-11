@@ -35,12 +35,14 @@ a,
 }
 
 
-header {
+h1 {
   display: flex;
+  position: fixed;
   flex-direction: column;
   justify-content: left;
+  margin-top: -50px;
+  margin-left: -10%;
   align-items: center;
-  padding: 10px 0px;
-  font-size: 25px;
-  transform: translateX(-575%);
+  font-size: 55px;
+  translate: translateX(calc(100vw - 150px));
 }

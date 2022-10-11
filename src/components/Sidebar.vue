@@ -11,23 +11,17 @@ export default {
       menu: [
         {
           header: config.appName,
-          hiddenOnCollapse: true, 
+          hiddenOnCollapse: true,
         },
         {
           href: "/",
-          title: "Dashboard",
+          title: `${config.chains["eth"].name}`,
           icon: "fa fa-user",
         },
         {
-          href: "/charts",
-          title: "Charts",
+          href: "/addWallet",
+          title: "New Wallet",
           icon: "fa fa-chart-area",
-          child: [
-            {
-              href: "/charts/sublink",
-              title: "Sub Link",
-            },
-          ],
         },
       ],
     };

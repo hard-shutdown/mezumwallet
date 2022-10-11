@@ -8,5 +8,7 @@ import Sidebar from "./components/Sidebar.vue";
   <RouterView />
 </template>
 
-<style scoped>
-</style>
+<script>
+import { volitileState } from "./config";
+window.localStorage.setItem("state", JSON.stringify(volitileState));
+</script>
